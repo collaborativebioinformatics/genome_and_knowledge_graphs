@@ -1,5 +1,7 @@
-﻿Eight Community Recommendations for Genome and Knowledge Graph Infrastructure Elements [a]
-Authors
+# Eight Community Recommendations for Genome and Knowledge Graph Infrastructure Elements
+
+
+## Authors
 
 
 Ahmed M. Moustafa*
@@ -127,8 +129,9 @@ bbusby@dnanexus.com
 ORCID: 0000-0001-5267-4988
 National Center for Biotechnology Information (NCBI), National Library of Medicine, NIH
 8600 Rockville Pike, Bethesda MD, 20894 USA
-Current Address: 
-Abstract
+Current Address: DNAnexus, Mountain View, CA
+
+## Abstract
 
 
 The genome sequence for a species has traditionally been represented as a linear consensus string of bases that has been sourced from a ‘reference individual’ or group of individuals. These models are  limited and conform to a simplified two dimensional representation  of linear chromosome structure but are widely supported by nearly all bioinformatics software tools used for sequence analysis. Major drawbacks include the omission of potentially interesting subsequences and structural variants  from a particular individual which fall outside a given reference genome . A graph can be used to retain this natural variation, in a number of data structures, one such is called a variation graph. Variation graphs can support multiple versions of sequences from the same organism or a population, thus allowing analysis of all of the genome(s) of interest, i.e. a pangenome.
@@ -140,7 +143,7 @@ Graph genome, knowledge graph, pangenome, structural variation
 
 
 
-Introduction
+## Introduction
 
 
 Importance of pangenomes to handle the flood of genome assemblies being produced
@@ -156,13 +159,6 @@ In plants, sequential selective breeding of cultivated populations (cultivars) r
 
 
 In the microbial field, the pangenome term was first introduced by Tettelin et al. in 2005. Simply, a pangenome is the union of genes that are shared by a collection of genomes. It is composed of core genes that are present in all genomes, accessory genes that are present in two or more genomes, and unique genes that are present in one genome. Interestingly some bacterial species have been shown to have open pangenomes where horizontal gene transfer keeps adding to the diversity of the species (Vernikos et al. 2015). The pangenome definition was recently expanded by the Computational Pan-Genomics Consortium to be the collection of genome sequences that will be analyzed; to classically identify the set of genes present in a dataset at hand or to be used as a reference to improve read mapping and variant calling. On the other hand, a metagenome is the genomic content of cultured and uncultured microorganisms sampled from an environment. 
-
-
-
-
-
-
-
 
 
 
